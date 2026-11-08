@@ -1,22 +1,171 @@
-![Header](./github-header-image.png)
-<h1 align="center">Hi 👋, I'm Sakif Azwad</h1>
-<h3 align="center">A passionate frontend developer from Bangladesh</h3>
+<h1 align="center">Hi, I'm Sakif Azwad 👋</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sakifazwad&label=Profile%20views&color=0e75b6&style=flat" alt="sakifazwad" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sakifazwad" alt="sakifazwad" /></a> </p>
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.codechef.com/users/raftyy_13" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="raftyy_13" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/raftyy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="raftyy" height="30" width="40" /></a>
+<p align="center">
+  <b>Full-Stack Developer who also ships AI</b><br/>
+  Next.js · TypeScript · Node.js · PostgreSQL · Python · ICPC problem solver
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1200&color=2F81F7&center=true&vCenter=true&width=560&lines=I+build+web+apps+people+actually+use.;Correctness+first%2C+then+speed.;2%2C200%2B+problems+solved+%C2%B7+410%2B+day+streak.;Open+to+remote+roles+worldwide." alt="Typing intro" />
+  </a>
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sakifazwad&show_icons=true&locale=en&layout=compact" alt="sakifazwad" /></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20to-Remote%20Roles-2ea44f?style=for-the-badge" alt="Open to remote roles" />
+  <a href="https://sakif-azwad.web.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/sakifazwad/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:sakifazwad18@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://codeforces.com/profile/Raftyy"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sakifazwad&show_icons=true&locale=en" alt="sakifazwad" /></p>
+---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sakifazwad&" alt="sakifazwad" /></p>
+```ts
+const sakif = {
+  role:      "Full-Stack Developer (+ AI)",
+  location:  "Chattogram, Bangladesh · UTC+6",
+  building:  "MeetReady v2: a Calendly-style scheduler, rebuilt solo from scratch",
+  web:       ["Next.js", "React", "TypeScript", "Node.js", "Express", "PostgreSQL", "MongoDB"],
+  ai:        ["Python", "PyTorch", "TensorFlow", "OpenCV"],
+  solved:    "2,200+ problems · 410+ day Codeforces streak",
+  openTo:    "Remote full-stack roles, worldwide",
+};
+```
+
+## 📖 The short story
+
+I placed **6th at the National Informatics Olympiad in 2014**, and I've been hooked on hard problems ever since. At university I competed seriously, earned an **Honorable Mention at ICPC Asia Dhaka 2022**, and later served as contest secretary of IIUC's programming club, writing the problems and test cases for others to struggle with.
+
+Somewhere along the way I realized I wanted my code used by *people*, not just judges. So I started building for the web: booking systems, e-commerce, dashboards. For our undergraduate thesis, my team built **HyFiNet**, a fire-detection model that now runs as a live demo.
+
+Right now I'm rebuilding **MeetReady**, a 2024 team project, solo and from scratch, bringing what competitive programming taught me: **correctness first, then speed.**
+
+---
+
+## 🚀 Featured Work
+
+### 📅 MeetReady v2 &nbsp;·&nbsp; *Calendly-style meeting scheduler* &nbsp;🚧
+
+Hosts set event types and weekly availability and share a link. Guests book in their own timezone.
+
+- **Double booking is impossible:** prevented at three layers (app re-check, per-host advisory lock, and a PostgreSQL exclusion constraint)
+- Secure guest cancel/reschedule via hashed manage tokens, `.ics` calendar invites, and email notifications
+- Google login with owner-scoped authorization, plus a custom "Daylight" design system
+- Property-based tests (fast-check) against in-process Postgres (PGlite), with CI on GitHub Actions
+- 🔜 Next up: AI-powered scheduling features
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black" />
+  <img src="https://img.shields.io/badge/Better_Auth-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
+</p>
+
+<!-- TODO: replace "#" in the Live Demo link below with the real URL once deployed, and change the badge text from "Coming Soon" to "Live Demo" -->
+<a href="#"><img src="https://img.shields.io/badge/Live_Demo-Coming_Soon-lightgrey?style=for-the-badge" alt="Live demo" /></a>
+<a href="https://github.com/SakifAzwad/MeetReady-V2"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code" /></a>
+
+### 🔥 HyFiNet &nbsp;·&nbsp; *Fire detection with deep learning*
+
+A CNN with a custom attention module that detects fire in images, built for our undergraduate thesis.
+
+- Attention module, model, and training pipeline written from scratch
+- Ablation study documented in the repo, showing what each component contributes
+- Deployed as an interactive **Gradio** demo on **Hugging Face Spaces**: upload an image, get a prediction
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+</p>
+
+<a href="https://huggingface.co/spaces/Fire-Detection-Lab/HyFiNet"><img src="https://img.shields.io/badge/Live_Demo-Try_it-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Live demo" /></a>
+<a href="https://github.com/SakifAzwad/Hyfinet"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code" /></a>
+
+### 🧰 More projects
+
+| Project | What it is | Stack | Links |
+|---|---|---|---|
+| **MeetReady v1** | Interview booking system with conflict-safe scheduling, email reminders, analytics dashboard *(team project, 2024)* | Next.js · TypeScript · Firebase · JWT | [Live](https://meet-ready.vercel.app/) · [Code](https://github.com/SakifAzwad/Meet-Ready) |
+| **Raf Hotel** | Hotel booking with a calendar UI, live availability and pricing | React · Node · Express · MongoDB · JWT | [Live](https://raf-hotel.web.app/) · [Client](https://github.com/SakifAzwad/Raf-Hotel-Client) · [Server](https://github.com/SakifAzwad/Raf-Hotel-Server) |
+| **Raf Tech** | Tech-gadget store with full CRUD cart, user accounts and order history | React · Node · Express · MongoDB · JWT | [Live](https://raf-tech-d3ff8.web.app/) · [Client](https://github.com/SakifAzwad/Raf-Tech-Client) · [Server](https://github.com/SakifAzwad/Raf-Tech-Server) |
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**<br/>
+<img src="https://skillicons.dev/icons?i=ts,js,py,cpp,c&theme=dark" />
+
+**Frontend**<br/>
+<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,html,css&theme=dark" />
+
+**Backend & Databases**<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,firebase&theme=dark" />
+
+**AI / ML**<br/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&theme=dark" />
+
+**Tools & Platforms**<br/>
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel,netlify,wordpress&theme=dark" />
+
+**🌱 Currently leveling up with** (through MeetReady v2)<br/>
+<img src="https://img.shields.io/badge/PostgreSQL_+_Neon-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black" />
+<img src="https://img.shields.io/badge/Better_Auth-111111?style=flat-square" />
+<img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
+<img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square&logo=shadcnui&logoColor=white" />
+<img src="https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white" />
+<img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white" />
+<img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+
+---
+
+## 🧠 Problem Solving
+
+<p>
+  <a href="https://codeforces.com/profile/Raftyy">
+    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3DRaftyy&query=%24.result%5B0%5D.maxRating&label=Codeforces%20Max%20Rating&style=for-the-badge&logo=codeforces&color=1F8ACB" alt="Codeforces max rating" />
+  </a>
+  <img src="https://img.shields.io/badge/Daily%20Streak-410%2B%20days%20🔥-orange?style=for-the-badge" alt="410+ day streak" />
+</p>
+
+| Platform | Solved |
+|---|---|
+| [Codeforces](https://codeforces.com/profile/Raftyy) | **1,500+** |
+| UVa Online Judge | **500+** |
+| [CodeChef](https://www.codechef.com/users/raftyy_13) | **200+** |
+| **Total** | **2,200+** |
+
+## 🏆 Achievements
+
+- 🥇 **Honorable Mention**: ICPC Asia Dhaka Regional Contest, 2022
+- 🏆 **Champion**: CCE Fest IIUC Programming Contest, 2022
+- 🏆 **Champion**: IIUC Intra-University Programming Contest, 2021
+- 🥉 **2nd Runner-Up**: IIUC Intra-University Programming Contest, 2022
+- 🎖️ **6th Place**: National Informatics Olympiad, 2014
+
+---
+
+## ⚡ Beyond the code
+
+- 🔥 Solved at least one problem every day for **410+ days straight**
+- 🧮 **Perfect score** in SAT Math, and taught math from Grade 8 to A-Level through university
+- 👨‍🏫 Teaching Assistant for *Computer Programming 1* at IIUC for two semesters
+- 🧩 Wrote contest problems and test cases as IIUC's programming club contest secretary
+- 🎓 BSc in Computer Science & Engineering, International Islamic University Chittagong (2020–2024)
+
+---
+
+<p align="center">
+  <b>Hiring for a remote full-stack role?</b> Let's talk.<br/><br/>
+  <a href="mailto:sakifazwad18@gmail.com">sakifazwad18@gmail.com</a> ·
+  <a href="https://www.linkedin.com/in/sakifazwad/">LinkedIn</a> ·
+  <a href="https://sakif-azwad.web.app/">Portfolio</a>
+</p>
