@@ -25,7 +25,7 @@
 const sakif = {
   role:      "Full-Stack Developer (+ AI)",
   location:  "Chattogram, Bangladesh · UTC+6",
-  building:  "MeetReady v2: a Calendly-style scheduler, rebuilt solo from scratch",
+  building:  "MeetReady v2: a Calendly-style scheduler, rebuilt solo and live on Vercel",
   web:       ["Next.js", "React", "TypeScript", "Node.js", "Express", "PostgreSQL", "MongoDB"],
   ai:        ["Python", "PyTorch", "TensorFlow", "OpenCV"],
   solved:    "2,200+ problems · 410+ day Codeforces streak",
@@ -39,21 +39,22 @@ I placed **6th at the National Informatics Olympiad in 2014**, and I've been hoo
 
 Somewhere along the way I realized I wanted my code used by *people*, not just judges. So I started building for the web: booking systems, e-commerce, dashboards. For our undergraduate thesis, my team built **HyFiNet**, a fire-detection model that now runs as a live demo.
 
-Right now I'm rebuilding **MeetReady**, a 2024 team project, solo and from scratch, bringing what competitive programming taught me: **correctness first, then speed.**
+Most recently I rebuilt **MeetReady**, a 2024 team project, solo and from scratch. It's [live now](https://meetreadyv2.vercel.app), built on what competitive programming taught me: **correctness first, then speed.**
 
 ---
 
 ## 🚀 Featured Work
 
-### 📅 MeetReady v2 &nbsp;·&nbsp; *Calendly-style meeting scheduler* &nbsp;🚧
+### 📅 MeetReady v2 &nbsp;·&nbsp; *Calendly-style meeting scheduler* &nbsp;🟢 Live
 
 Hosts set event types and weekly availability and share a link. Guests book in their own timezone.
 
 - **Double booking is impossible:** prevented at three layers (app re-check, per-host advisory lock, and a PostgreSQL exclusion constraint)
 - Secure guest cancel/reschedule via hashed manage tokens, `.ics` calendar invites, and email notifications
-- Google login with owner-scoped authorization, plus a custom "Daylight" design system
-- Property-based tests (fast-check) against in-process Postgres (PGlite), with CI on GitHub Actions
-- 🔜 Next up: AI-powered scheduling features
+- Google login with owner-scoped authorization, IDOR-tested CRUD, and open-redirect protection
+- Property-based tests (fast-check) plus race tests on real Postgres, with CI on GitHub Actions
+- Custom "Daylight" design system with a timezone- and DST-aware booking flow
+- 🚧 In development: AI-powered scheduling features
 
 <p>
   <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
@@ -63,10 +64,10 @@ Hosts set event types and weekly availability and share a link. Guests book in t
   <img src="https://img.shields.io/badge/Better_Auth-111111?style=flat-square" />
   <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
   <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 </p>
 
-<!-- TODO: replace "#" in the Live Demo link below with the real URL once deployed, and change the badge text from "Coming Soon" to "Live Demo" -->
-<a href="#"><img src="https://img.shields.io/badge/Live_Demo-Coming_Soon-lightgrey?style=for-the-badge" alt="Live demo" /></a>
+<a href="https://meetreadyv2.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Try_it-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo" /></a>
 <a href="https://github.com/SakifAzwad/MeetReady-V2"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code" /></a>
 
 ### 🔥 HyFiNet &nbsp;·&nbsp; *Fire detection with deep learning*
