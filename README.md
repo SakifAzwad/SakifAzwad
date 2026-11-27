@@ -2,12 +2,12 @@
 
 <p align="center">
   <b>Full-Stack Developer who also ships AI</b><br/>
-  Next.js · TypeScript · Node.js · PostgreSQL · Python · ICPC problem solver
+  Next.js · TypeScript · PostgreSQL · LLM apps · MCP · ICPC problem solver
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1200&color=2F81F7&center=true&vCenter=true&width=560&lines=I+build+web+apps+people+actually+use.;Correctness+first%2C+then+speed.;2%2C200%2B+problems+solved+%C2%B7+410%2B+day+streak.;Open+to+remote+roles+worldwide." alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1200&color=2F81F7&center=true&vCenter=true&width=560&lines=I+build+web+apps+people+actually+use.;AI+features+with+guardrails%2C+not+guesswork.;Correctness+first%2C+then+speed.;2%2C200%2B+problems+solved+%C2%B7+410%2B+day+streak.;Open+to+remote+roles+worldwide." alt="Typing intro" />
   </a>
 </p>
 
@@ -25,9 +25,9 @@
 const sakif = {
   role:      "Full-Stack Developer (+ AI)",
   location:  "Chattogram, Bangladesh · UTC+6",
-  building:  "MeetReady v2: a Calendly-style scheduler, rebuilt solo and live on Vercel",
-  web:       ["Next.js", "React", "TypeScript", "Node.js", "Express", "PostgreSQL", "MongoDB"],
-  ai:        ["Python", "PyTorch", "TensorFlow", "OpenCV"],
+  shipped:   "MeetReady v2: AI scheduler + MCP server, ~950 tests, live on Vercel",
+  web:       ["Next.js", "React", "TypeScript", "Node.js", "Express", "PostgreSQL", "MongoDB", "Redis"],
+  ai:        ["Vercel AI SDK", "Groq", "MCP", "Python", "PyTorch", "TensorFlow", "OpenCV"],
   solved:    "2,200+ problems · 410+ day Codeforces streak",
   openTo:    "Remote full-stack roles, worldwide",
 };
@@ -39,35 +39,47 @@ I placed **6th at the National Informatics Olympiad in 2014**, and I've been hoo
 
 Somewhere along the way I realized I wanted my code used by *people*, not just judges. So I started building for the web: booking systems, e-commerce, dashboards. For our undergraduate thesis, my team built **HyFiNet**, a fire-detection model that now runs as a live demo.
 
-Most recently I rebuilt **MeetReady**, a 2024 team project, solo and from scratch. It's [live now](https://meetreadyv2.vercel.app), built on what competitive programming taught me: **correctness first, then speed.**
+Most recently I rebuilt **MeetReady**, a 2024 team project, solo and from scratch over 31 build days. It now has an AI booking assistant, an MCP server so Claude can book meetings, and about 950 tests. It's [live now](https://meetreadyv2.vercel.app), built on what competitive programming taught me: **correctness first, then speed.**
 
 ---
 
 ## 🚀 Featured Work
 
-### 📅 MeetReady v2 &nbsp;·&nbsp; *Calendly-style meeting scheduler* &nbsp;🟢 Live
+### 📅 MeetReady v2 &nbsp;·&nbsp; *Calendly-style scheduler with AI built in* &nbsp;🟢 Live
 
-Hosts set event types and weekly availability and share a link. Guests book in their own timezone.
+Hosts share a booking link and guests book in their own timezone, or just type *"next week, a morning, I'm in London"*. Hosts can even book, move and cancel meetings from Claude.
 
-- **Double booking is impossible:** prevented at three layers (app re-check, per-host advisory lock, and a PostgreSQL exclusion constraint)
-- Secure guest cancel/reschedule via hashed manage tokens, `.ics` calendar invites, and email notifications
-- Google login with owner-scoped authorization, IDOR-tested CRUD, and open-redirect protection
-- Property-based tests (fast-check) plus race tests on real Postgres, with CI on GitHub Actions
-- Custom "Daylight" design system with a timezone- and DST-aware booking flow
-- 🚧 In development: AI-powered scheduling features
+<p align="center">
+  <a href="https://meetreadyv2.vercel.app/sakifazwad18/intro">
+    <img src="https://raw.githubusercontent.com/SakifAzwad/MeetReady-V2/main/docs/images/booking-assistant.gif" width="720" alt="A guest types 'Next week, a morning. I'm in London', gets three real free times, and picks one" />
+  </a>
+</p>
+
+- **No double bookings, even in a race:** app re-check, per-host advisory lock and a Postgres exclusion constraint, proven by tests that fire simultaneous bookings at real Postgres
+- **An AI booking assistant that can't make up times:** the LLM turns a guest's sentence into a search, then code validates it and runs it through one pure slot function, so every suggestion is a real free time
+- **MCP server for Claude and ChatGPT:** MeetReady is its own OAuth 2.1 server (PKCE, rotating refresh tokens), and every change needs a confirm form the model can't fill in
+- **AI meeting briefs** with five layers of prompt-injection protection, a cost log per call, and evals against the real model
+- **Team scheduling:** collective and round-robin event types, with fair host assignment under per-host locks
+- **Production-grade:** Google Calendar sync with Meet links, background jobs with retries, rate limiting, Sentry with a privacy scrubber, signed webhooks, and an embeddable booking widget
+- **~890 unit tests + 57 Playwright browser tests** in CI, plus [31 daily design write-ups](https://github.com/SakifAzwad/MeetReady-V2#design-notes) covering every decision and bug
 
 <p>
   <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" />
+  <img src="https://img.shields.io/badge/MCP-111111?style=flat-square&logo=modelcontextprotocol&logoColor=white" />
   <img src="https://img.shields.io/badge/Better_Auth-111111?style=flat-square" />
-  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Inngest-1F1F1F?style=flat-square" />
+  <img src="https://img.shields.io/badge/Upstash_Redis-00E9A3?style=flat-square&logo=upstash&logoColor=black" />
+  <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square" />
 </p>
 
-<a href="https://meetreadyv2.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Try_it-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo" /></a>
+<a href="https://meetreadyv2.vercel.app/sakifazwad18/intro"><img src="https://img.shields.io/badge/Try_a_Booking-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Try a booking" /></a>
+<a href="https://meetreadyv2.vercel.app"><img src="https://img.shields.io/badge/Live_Site-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live site" /></a>
 <a href="https://github.com/SakifAzwad/MeetReady-V2"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code" /></a>
 
 ### 🔥 HyFiNet &nbsp;·&nbsp; *Fire detection with deep learning*
@@ -107,24 +119,33 @@ A CNN with a custom attention module that detects fire in images, built for our 
 <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,html,css&theme=dark" />
 
 **Backend & Databases**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,firebase&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,redis,mongodb,firebase&theme=dark" />
 
 **AI / ML**<br/>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&theme=dark" />
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&theme=dark" /><br/>
+<img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" />
+<img src="https://img.shields.io/badge/MCP_Servers-111111?style=flat-square&logo=modelcontextprotocol&logoColor=white" />
+<img src="https://img.shields.io/badge/LLM_Evals-6E40C9?style=flat-square" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
 
-**Tools & Platforms**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel,netlify,wordpress&theme=dark" />
+**Testing & Tools**<br/>
+<img src="https://skillicons.dev/icons?i=vitest,git,github,githubactions,vercel,netlify,wordpress,sentry&theme=dark" /><br/>
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square" />
+<img src="https://img.shields.io/badge/fast--check-2C3E50?style=flat-square" />
 
-**🌱 Currently leveling up with** (through MeetReady v2)<br/>
-<img src="https://img.shields.io/badge/PostgreSQL_+_Neon-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+**Production toolkit** (shipped in MeetReady v2)<br/>
+<img src="https://img.shields.io/badge/Neon_Postgres-00E599?style=flat-square&logo=postgresql&logoColor=black" />
 <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black" />
-<img src="https://img.shields.io/badge/Better_Auth-111111?style=flat-square" />
+<img src="https://img.shields.io/badge/Better_Auth_+_OAuth_2.1-111111?style=flat-square" />
 <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
 <img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square&logo=shadcnui&logoColor=white" />
-<img src="https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white" />
 <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white" />
-<img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" />
+<img src="https://img.shields.io/badge/Inngest-1F1F1F?style=flat-square" />
+<img src="https://img.shields.io/badge/Upstash_Redis-00E9A3?style=flat-square&logo=upstash&logoColor=black" />
+<img src="https://img.shields.io/badge/Resend-000000?style=flat-square&logo=resend&logoColor=white" />
+<img src="https://img.shields.io/badge/Google_Calendar_API-4285F4?style=flat-square&logo=googlecalendar&logoColor=white" />
 
 ---
 
